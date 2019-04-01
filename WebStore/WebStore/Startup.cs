@@ -36,15 +36,9 @@ namespace WebStore
 
 			app.UseStaticFiles();
 
-			////var mess = Configuration["CustomMessage"];
-
-			////app.Run(async (context) =>
-			////{
-			////	await context.Response.WriteAsync(mess);
-			////});
-
-			app.UseMvc(route => {
-				route.MapRoute(name: "default", template:"{controller=Home}/{action=Index}/{id?}");
+			app.UseMvc(route =>
+			{
+				route.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}");
 			});
 
 		}

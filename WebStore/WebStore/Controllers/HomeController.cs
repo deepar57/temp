@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebStore.Infrastructure.Filters;
 
 namespace WebStore.Controllers
 {
 	public class HomeController : Controller
 	{
+		//[ActionFilterAsync]
 		public IActionResult Index()
 		{
+			//throw new ApplicationException();
 			return View();
 		}
 
@@ -53,7 +56,7 @@ namespace WebStore.Controllers
 			return View();
 		}
 
-		public IActionResult NotFound()
+		public IActionResult Error404()
 		{
 			return View();
 		}

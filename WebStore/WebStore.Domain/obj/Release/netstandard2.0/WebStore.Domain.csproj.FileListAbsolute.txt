@@ -1,0 +1,9 @@
+E:\Курс JS Задания\xx C# ASP.NET MVC 6. Уровень 1\Lesson 04\WebStore\WebStore.Domain\bin\Release\netstandard2.0\WebStore.Domain.deps.json
+E:\Курс JS Задания\xx C# ASP.NET MVC 6. Уровень 1\Lesson 04\WebStore\WebStore.Domain\bin\Release\netstandard2.0\WebStore.Domain.dll
+E:\Курс JS Задания\xx C# ASP.NET MVC 6. Уровень 1\Lesson 04\WebStore\WebStore.Domain\bin\Release\netstandard2.0\WebStore.Domain.pdb
+E:\Курс JS Задания\xx C# ASP.NET MVC 6. Уровень 1\Lesson 04\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.csprojAssemblyReference.cache
+E:\Курс JS Задания\xx C# ASP.NET MVC 6. Уровень 1\Lesson 04\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.csproj.CoreCompileInputs.cache
+E:\Курс JS Задания\xx C# ASP.NET MVC 6. Уровень 1\Lesson 04\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.AssemblyInfoInputs.cache
+E:\Курс JS Задания\xx C# ASP.NET MVC 6. Уровень 1\Lesson 04\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.AssemblyInfo.cs
+E:\Курс JS Задания\xx C# ASP.NET MVC 6. Уровень 1\Lesson 04\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.dll
+E:\Курс JS Задания\xx C# ASP.NET MVC 6. Уровень 1\Lesson 04\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.pdb

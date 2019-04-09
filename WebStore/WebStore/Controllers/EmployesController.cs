@@ -53,6 +53,15 @@ namespace WebStore.Controllers
 		[HttpPost]
 		public ActionResult Edit(Employee employee)
 		{
+			if (employee.Age < 18)
+				ModelState.AddModelError("Age", "Возраст слишком маленький");
+
+			if (employee.Age > 120)
+				ModelState.AddModelError("Age", "Возраст слишком большой");
+
+			//if (employee.Age % 2 == 0)
+			//	ModelState.AddModelError("Age", "Четный возраст");
+
 			if (!ModelState.IsValid) return View(employee);
 
 			if (employee.Id > 0)
@@ -64,7 +73,7 @@ namespace WebStore.Controllers
 				dbEmployee.FirstName = employee.FirstName;
 				dbEmployee.Patronymic = employee.Patronymic;
 				dbEmployee.Age = employee.Age;
-				
+
 			}
 			else
 			{

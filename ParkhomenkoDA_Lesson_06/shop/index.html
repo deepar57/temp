@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Shop</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="catalog">
+			<h2>Каталог товаров</h2>
+			<div class="catalogContent">
+			</div>
+			<div class="clrfix"></div>
+		</div>
+		<div class="cart">
+			<h2>Корзина</h2>
+			<div class="cartContent">
+				<table>
+					<tr class="header">
+						<td>Наименование</td>
+						<td>Цена</td>
+						<td>Количество</td>
+						<td>Стоимость</td>
+					</tr>
+					<tr class="footer">
+						<td>Итого</td>
+						<td></td>
+						<td></td>
+						<td class="cost"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<template id="itemTemplate">
+		<div class="item">
+			<h3 class="title"></h3>
+			<p>Цена: <span class="price"></span> руб.</p>
+			<button class="add">Купить</button>
+		</div>
+	</template>
+
+	<template id="cartItemTemplate">
+		<tr class="cartItem">
+			<td class="title"></td>
+			<td class="price"></td>
+			<td class="count"></td>
+			<td class="cost"></td>
+		</tr>
+	</template>
+
+	<script type="text/javascript" src="JS/Script.js"></script>
+</body>
+
+</html>

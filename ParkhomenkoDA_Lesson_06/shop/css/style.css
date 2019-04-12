@@ -1,0 +1,27 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.clrfix {
+    display: block;
+    clear: both;
+    content: ' ';
+}
+
+.item {
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 using WebStore.DAL.Context;
 using WebStore.Data;
 using WebStore.Domain.Entities;
-using WebStore.Infrastructure.Conventions;
-using WebStore.Infrastructure.Filters;
 using WebStore.Infrastructure.Implementations;
 using WebStore.Infrastructure.Interfaces;
 using WebStore.Models;
@@ -40,6 +34,7 @@ namespace WebStore
 			services.AddSingleton<IEmployeesData, InMemoryEmployeesData>();
 			//services.AddSingleton<IProductData, InMemoryProductData>();
 			services.AddScoped<IProductData, SqlProductData>();
+			services.AddScoped<ICartService, CookieCartService>();
 
 			services.AddIdentity<User, IdentityRole>(opt =>
 				{

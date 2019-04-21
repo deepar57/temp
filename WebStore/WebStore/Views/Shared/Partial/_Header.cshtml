@@ -87,9 +87,9 @@
 								<a href="#">Shop<i class="fa fa-angle-down"></i></a>
 								<ul role="menu" class="sub-menu">
 									<li><a asp-controller="Catalog" asp-action="Shop">Products</a></li>
-									<li><a asp-controller="Home" asp-action="ProductDetails">Product Details</a></li>
+									<li><a asp-controller="Catalog" asp-action="ProductDetails" asp-route-id="1">Product Details</a></li>
 									<li><a asp-controller="Home" asp-action="Checkout">Checkout</a></li>
-									<li><a asp-controller="Home" asp-action="Cart">Cart</a></li>
+									<li><a asp-controller="Cart" asp-action="Details">Корзина</a></li>
 									<li><a asp-controller="Account" asp-action="Login">Login</a></li>
 								</ul>
 							</li>
@@ -102,7 +102,7 @@
 							</li>
 							<li><a asp-controller="Home" asp-action="Error404">404</a></li>
 							<li><a asp-controller="Home" asp-action="ContactUs">Contact</a></li>
-							<li><a asp-controller="Employes" asp-action="Index">Employes</a></li>
+							<li><a asp-controller="Employes" asp-action="Index">Сотрудники</a></li>
 						</ul>
 					</div>
 				</div>

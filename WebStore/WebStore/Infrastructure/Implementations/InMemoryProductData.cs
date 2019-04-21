@@ -24,5 +24,10 @@ namespace WebStore.Infrastructure.Implementations
 				products = products.Where(c => c.SectionId == Filter.SectionId);
 			return products;
 		}
+
+		public Product GetProductById(int id)
+		{
+			return TestData.Products.FirstOrDefault(c => c.Id == id);
+		}
 	}
 }

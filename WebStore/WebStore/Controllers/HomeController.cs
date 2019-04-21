@@ -16,22 +16,12 @@ namespace WebStore.Controllers
 			return View();
 		}
 
-		public IActionResult ProductDetails()
-		{
-			return View();
-		}
-
 		public IActionResult ContactUs()
 		{
 			return View();
 		}
 
 		public IActionResult Checkout()
-		{
-			return View();
-		}
-
-		public IActionResult Cart()
 		{
 			return View();
 		}

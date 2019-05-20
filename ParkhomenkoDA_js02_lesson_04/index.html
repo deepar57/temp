@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>eShop</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #ccc;
+    }
+    button {
+      background-color: #fff;
+      height: 24px;
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    .cart-button {
+      margin-left: auto;
+    }
+    .goods-search {
+      margin: 0;
+      width: 100%;
+      height: 24px;
+    }
+    .search-button {
+      margin-left: 10px;
+    }
+    .search-form {
+      align-items: center;
+      display: flex;
+      width: 30%;
+    }
+    .goods-list {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -20px;
+    }
+    .goods-item {
+      font-size: 14px;
+      line-height: 1;
+      width: 150px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <form class="search-form">
+      <input class="goods-search" type="text">
+      <button type="submit" class="search-button">Искать</button>
+    </form>
+    <button class="cart-button">Корзина</button>
+  </header>
+  <main>
+    <div class="goods-list"></div>
+  </main>
+  <footer>
+      <textarea class="textArea">He said, 'I love cats.'
+He asked, 'Do you love cats?'
+'I don't love cats!' he shouted.
+'I love cats,' he said.</textarea>
+      <button class="cart-button" onclick="replaceApostrophe()">Заменить кавычки</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
